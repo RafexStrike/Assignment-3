@@ -18,6 +18,7 @@
     .adlam {
       font-family: "ADLaM Display", serif;
     }
+
     .sora {
       font-family: "Sora", serif;
     }
@@ -28,7 +29,7 @@
   <!-- header section starts -->
   <header>
     <!-- header - navbar  section starts-->
-    <section class="bg-[#FFF9F4] sora">
+    <section class="bg-[#FFF9F4] sora mb-24">
       <div class="navbar  container mx-auto">
         <!-- navbar start -->
         <div class="navbar-start">
@@ -81,7 +82,44 @@
       </div>
     </section>
     <hr class="container mx-auto border-black md:hidden lg:hidden">
+    
+    <!-- header - hero section starts -->
+    <!-- changed***************** -->
+    <section class="mb-32 container mx-auto flex flex-col md:flex-row items-center gap-8">
+      <!-- hero section texts container-->
+        <!-- changed***************** -->
+      <div class="flex flex-col gap-5 flex-1">
+        <h1 class="text-4xl adlam ">Pamper Your Pet, <br>Because They Deserve <br> the Best</h1>
+        <small>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and
+          make tails wag with joy!</small>
+        <a class="btn w-fit rounded-xl bg-[#FFDC26]">Find a pet</a>
+      </div>
+      <!-- hero section image container-->
+        <!-- changed***************** -->
+      <div class="flex-1">
+        <img class="w-full" src="assets/cat-big.png" alt="">
+      </div>
+
+    </section>
   </header>
+
+  <body>
+    <!-- browse by categories section -->
+    <section class="container mx-auto">
+      <h3 class=" text-2xl adlam">Browse By Categories</h3>
+      <!-- first card -->
+      <div class="card bg-primary text-primary-content w-96">
+        <div class="card-body">
+          <h2 class="card-title">Card title!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end">
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </body>
 </body>
 
 </html>
