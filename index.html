@@ -29,7 +29,7 @@
   <!-- header section starts -->
   <header>
     <!-- header - navbar  section starts-->
-    <section class="bg-[#FFF9F4] sora mb-24">
+    <section class="bg-[#FFF9F4] sora mb-0 md:mb-24">
       <div class="navbar  container mx-auto">
         <!-- navbar start -->
         <div class="navbar-start">
@@ -81,13 +81,13 @@
 
       </div>
     </section>
-    <hr class="container mx-auto border-black md:hidden lg:hidden">
-    
+    <hr class="container mx-auto border-black mb-24 md:mb-0 md:hidden lg:hidden ">
+
     <!-- header - hero section starts -->
     <!-- changed***************** -->
-    <section class="mb-32 container mx-auto flex flex-col md:flex-row items-center gap-8">
+    <section class="mb-32 container mx-auto flex flex-col md:flex-row items-center">
       <!-- hero section texts container-->
-        <!-- changed***************** -->
+      <!-- changed***************** -->
       <div class="flex flex-col gap-5 flex-1">
         <h1 class="text-4xl adlam ">Pamper Your Pet, <br>Because They Deserve <br> the Best</h1>
         <small>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and
@@ -95,29 +95,105 @@
         <a class="btn w-fit rounded-xl bg-[#FFDC26]">Find a pet</a>
       </div>
       <!-- hero section image container-->
-        <!-- changed***************** -->
+      <!-- changed***************** -->
       <div class="flex-1">
-        <img class="w-full" src="assets/cat-big.png" alt="">
+        <img class="w-full" src="assets/cat-big-removebg-preview.png" alt="">
       </div>
 
     </section>
   </header>
 
-  <body>
+  <body class="sora">
     <!-- browse by categories section -->
-    <section class="container mx-auto">
-      <h3 class=" text-2xl adlam">Browse By Categories</h3>
-      <!-- first card -->
-      <div class="card bg-primary text-primary-content w-96">
-        <div class="card-body">
-          <h2 class="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn">Buy Now</button>
+    <section class="container mx-auto mb-15 md:mb-28">
+      <h3 class=" text-2xl adlam mb-8 md:mb-12">Browse By Categories</h3>
+      <!-- cards container -->
+      <div class="grid grid-cols-2 gap-2.5 md:grid-cols-3 lg:grid-cols-6 md:gap-6">
+        <!-- first card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/dog-cartoon.png" />
+              </div>
+            </div>
+
+
+            <h2 class="card-title adlam">Dog</h2>
+            <p class="">3 items</p>
           </div>
         </div>
+        <!-- second card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/cat-cartoon.png" />
+              </div>
+            </div>
+            <h2 class="card-title adlam">Cat</h2>
+            <p class="">3 items</p>
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/fish-cartoon.png" />
+              </div>
+            </div>
+            <h2 class="card-title adlam">Fish</h2>
+            <p class="">3 items</p>
+          </div>
+        </div>
+        <!-- fourth card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/bird-cartoon.png" />
+              </div>
+            </div>
+            <h2 class="card-title adlam">Birds</h2>
+            <p class="">3 items</p>
+          </div>
+        </div>
+
+        <!-- fifth card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/mouse-cartoon.png" />
+              </div>
+            </div>
+            <h2 class="card-title adlam">Mouse</h2>
+            <p class="">3 items</p>
+          </div>
+        </div>
+        <!-- sixth card -->
+        <div class="card bg-[#F9DF8A] text-[#000000] px-auto py-5">
+          <div class="card-body flex flex-col items-center">
+            <div class="avatar">
+              <div class="w-24 rounded-full" style="background-color: white;">
+                <img class="p-6" src="assets/rabbit-cartoon.png" />
+              </div>
+            </div>
+            <h2 class="card-title adlam">Rabbit</h2>
+            <p class="">3 items</p>
+          </div>
+        </div>
+        <!-- card's been ended! -->
+
+
+
+
       </div>
       
+
+
     </section>
   </body>
 </body>
